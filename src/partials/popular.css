@@ -1,0 +1,234 @@
+.popular__container{
+    padding: 0 10%;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#bf2aeb, #ff00a1);
+}
+
+.popular__div__container{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular__container__titles{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.popular__container__titles h1{
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.popular__container__titles p{
+    height: 10vh;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 60%;
+    display: flex;
+    color: #fff;
+    font-weight: 200;
+}
+
+.popular__container__cards{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular__container__card{
+    height: 90%;
+    background-color: #fff;
+    gap: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.popular__img__top{
+    height: 50%;
+    border-radius: 20px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 1% 99%);
+}
+
+.popular__img__top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.popular__texts__center__container{
+    height: 45%;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.popular__texts__center__container__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular__courses{
+    padding: 0px 5px;
+    border-radius: 5px;
+    background-color: #bf2aeb50;
+    color: #7d00a3;
+    font-weight: 800;
+}
+
+.popular__rate{
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #7d00a3;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.popular__rate i{
+    font-size: 0.6rem;
+}
+
+.popular__texts__center__container__top__center{
+    height: 50%;
+}
+
+.popular__texts__center__container__top__center h4{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 100%;
+    font-weight: 900;
+}
+
+.popular__texts__center__container__center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.popular__calc__courses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 5px;
+    height: 100%;
+}
+
+.popular__calc__courses i{
+    font-size: 0.7rem;
+    color: #7d00a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular__calc__courses span{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 800;
+}
+
+.popular__calc__students{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.popular__calc__students i{
+    font-size: 0.7rem;
+    color: #7d00a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular__calc__students span{
+    font-size: 0.9rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular__line{
+    margin: 5px 0px;
+}
+
+.popular__line hr{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.popular__texts__center__container__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+.popular__price{
+    font-weight: 800;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.popular__texts__center__container__bottom__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.popular__texts__center__container__bottom__right img{
+    max-width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.popular__texts__center__container__bottom__right span{
+    font-weight: 800;
+    color: #7d00a3;
+}

@@ -1,0 +1,204 @@
+.courses{
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.courses__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 120vh;
+    margin-bottom: 5%;
+}
+
+.courses__container__top{
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.courses__title__center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+}
+
+.courses__title__center h1{
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.courses__bar__container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.courses__bar__container i{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+    width: 10%;
+    justify-content: center;
+    background-image: linear-gradient(#ff00a1, #bf2aeb);
+    background-clip: text;
+    background-color: #fff;
+    color: transparent;
+}
+
+.courses__bar__container input{
+    width: 65%;
+    border: none;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.courses__bar__container input::placeholder{
+    font-weight: 100;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+.courses__bar__container button{
+    width: 25%;
+    height: 80%;
+    margin-right: 5px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    background: linear-gradient(#bf2aeb, #ff00a1);
+    font-weight: 600;
+    color: #fff;
+}
+
+.courses__container__center{
+    width: 100%;
+    height: 85vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+.courses__left__image{
+    width: 50%;
+    height: 100%;
+    border: 4px dashed #ff00a1;
+    padding: 10px;
+    border-radius: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses__left__image__pink{
+    width: 50%;
+    height: 50%;
+    background-color: #ff00a1;
+    border-radius: 50% 0 50% 0;
+}
+
+.courses__left__image__pink img{
+    border-radius: 50% 0 50% 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.courses__left__image__purple img{
+    border-radius: 0 50% 0 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.courses__left__image__purple{
+    height: 50%;
+    width: 50%;
+    border-radius: 0 50% 0 50%;
+    background-color: #bf2aeb;
+}
+
+.courses__right__texts{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.courses__right__texts h1{
+    width: 100%;
+    height: 20vh;
+    font-size: 2.5rem;
+    line-height: 100%;
+}
+
+.courses__right__texts b{
+    background-image: linear-gradient(#ff00a1, #bf2aeb);
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+
+.courses__right__texts__element{
+    display: flex;
+    gap: 20px;
+    height: 15vh;
+}
+
+.courses__right__texts__element__left{
+    width: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.courses__right__texts__element__left i{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.courses__right__texts__element__right{
+    width: 85%;
+}
+
+.courses__right__texts__element__right h2{
+    width: 100%;
+    height: 30%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.courses__right__texts__element__right p{
+    width: 100%;
+    height: 70%;
+    font-size: 0.8rem;
+}
