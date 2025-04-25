@@ -1,4 +1,4 @@
-# Landing Page Le Ange Mar
+# Landing Page Treino - Etech
 
 Página estática criada para **treinar** meu HTML e CSS.
 
